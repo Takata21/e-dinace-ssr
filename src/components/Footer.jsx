@@ -2,7 +2,7 @@ import { FaFacebook, FaTwitter, FaYoutube, FaInstagram } from 'react-icons/fa6'
 export const Footer = () => {
   const year = new Date().getFullYear()
   return (
-    <footer className="relative flex flex-col-reverse items-center gap-5 px-12 py-5 bg-[#444] xl:flex-row">
+    <footer className="relative flex  flex-col-reverse items-center gap-5 px-12 py-5 bg-[#444] xl:flex-row">
       <div className="flex items-center gap-5">
         <img
           src="/images/logo-footer.png"

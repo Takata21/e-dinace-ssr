@@ -29,7 +29,7 @@ export const Menu = ({ Menu, handleClick }) => {
         </li>
         <li>
           <Link
-            href="/Ephemeris"
+            href="/ephemeris"
             onClick={() => handleClick()}
             className="block py-4 text-[#0c163b] font-medium text-xl xl:py-0 links-transitions xl:relative dark:text-white"
           >

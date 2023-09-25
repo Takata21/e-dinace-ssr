@@ -26,7 +26,7 @@ export const Navbar = () => {
               alt="dinace Logo"
             />
             <div>
-              <span className="self-center text-[8px] font-medium whitespace-nowrap ">
+              <span className="self-center text-[8px] font-medium whitespace-nowrap text-black dark:text-white">
                 Universidad Tecnológica de Panamá
               </span>
               <h2 className="text-[9px] font-semibold text-[#29166F] dark:text-white">
