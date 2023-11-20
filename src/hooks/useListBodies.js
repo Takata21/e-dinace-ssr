@@ -5,7 +5,7 @@ export function useListBodies() {
   const [bodyList, setBodyList] = useState([])
 
   useEffect(() => {
-    async function getBodyList(target) {
+    async function getBodyList() {
       try {
         const bodies = await getTargetBodies()
         const bodiesList = bodies.list
